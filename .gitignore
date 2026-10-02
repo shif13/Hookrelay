@@ -141,3 +141,43 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test / tooling caches
+.eslintcache
+.cache/
+.turbo/
+
+# Local Docker data
+docker-data/
+
+# pnpm
+.pnpm-debug.log
