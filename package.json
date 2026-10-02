@@ -16,7 +16,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.10.0",
+      "version": "11.28.3",
       "onFail": "download"
     }
   },
@@ -30,5 +30,6 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.71.0",
     "vitest": "^5.0.3"
-  }
+  },
+  "packageManager": "pnpm@11.28.3"
 }
